@@ -12,7 +12,6 @@ body {
 	border: 0;
 
 }
-
 .navbar-brand h1 { /* Restaurant name */
   color: #04047A;
   font-size: 1.5em;
@@ -22,26 +21,33 @@ body {
   margin-bottom: 0;
   line-height: .75;
 }
-
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
-
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
 	border: 1px solid #04047A;
 }
-
-#nav-list li {
-	border-top: 1px solid #04047A;
+#nav-list {
+	border: 2px solid #ddd;
+	background-color: #cceeff;
+	margin-bottom: 0px;
+	margin-top: 0px;
 }
-
-#navbar-menu {
-	border: 0px;
+#nav-list hr{
+	margin-bottom: 0px;
+	margin-top: 0px;
 }
+/* End Header*/
 
-#menu-item {
+/*Main content*/
+h1{
+	margin-bottom: 30px;
+}
+#main-content {
 	background-color: #61122f;
-	margin-left: 15px;
-	margin-right: 15px;
-	border: 1px solid #fff;
+	margin:50px;
+	padding-left: 50px;
+	height:2000px;
 }
+
+/*End Main Content */
